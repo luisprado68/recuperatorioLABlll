@@ -1,0 +1,174 @@
+{
+  "anuncios": [
+    {
+      "id": 4,
+      "titulo": "Mazda",
+      "transaccion": "Alquiler",
+      "descripcion": "Mauv",
+      "precio": 238616,
+      "puertas": 4,
+      "kms": 3419,
+      "potencia": 318
+    },
+    {
+      "id": 5,
+      "titulo": "Oldsmobile",
+      "transaccion": "Venta",
+      "descripcion": "Teal",
+      "precio": 203606,
+      "puertas": 3,
+      "kms": 2050,
+      "potencia": 171
+    },
+    {
+      "id": 6,
+      "titulo": "Acura",
+      "transaccion": "Permuta",
+      "descripcion": "Mauv",
+      "precio": 315198,
+      "puertas": 2,
+      "kms": 4343,
+      "potencia": 323
+    },
+    {
+      "id": 7,
+      "titulo": "Suzuki",
+      "transaccion": "Venta",
+      "descripcion": "Goldenrod",
+      "precio": 229513,
+      "puertas": 3,
+      "kms": 9763,
+      "potencia": 360
+    },
+    {
+      "id": 8,
+      "titulo": "Chevrolet",
+      "transaccion": "Alquiler",
+      "descripcion": "Blue",
+      "precio": 463903,
+      "puertas": 4,
+      "kms": 1183,
+      "potencia": 313
+    },
+    {
+      "id": 9,
+      "titulo": "Pontiac",
+      "transaccion": "Permuta",
+      "descripcion": "Pink",
+      "precio": 273398,
+      "puertas": 3,
+      "kms": 488,
+      "potencia": 380
+    },
+    {
+      "id": 10,
+      "titulo": "Jaguar",
+      "transaccion": "Venta",
+      "descripcion": "Turquoise",
+      "precio": 261268,
+      "puertas": 4,
+      "kms": 4709,
+      "potencia": 398
+    },
+    {
+      "id": 11,
+      "titulo": "Suzuki",
+      "transaccion": "Alquiler",
+      "descripcion": "Puce",
+      "precio": 457366,
+      "puertas": 3,
+      "kms": 3581,
+      "potencia": 229
+    },
+    {
+      "id": 12,
+      "titulo": "Mercury",
+      "transaccion": "Venta",
+      "descripcion": "Blue",
+      "precio": 214896,
+      "puertas": 4,
+      "kms": 5110,
+      "potencia": 352
+    },
+    {
+      "id": 14,
+      "titulo": "Volkswagen",
+      "transaccion": "Venta",
+      "descripcion": "Green",
+      "precio": 328723,
+      "puertas": 2,
+      "kms": 131,
+      "potencia": 383
+    },
+    {
+      "id": 15,
+      "titulo": "Dodge",
+      "transaccion": "Alquiler",
+      "descripcion": "Maroon",
+      "precio": 260477,
+      "puertas": 3,
+      "kms": 4616,
+      "potencia": 340
+    },
+    {
+      "id": 16,
+      "titulo": "Saturn",
+      "transaccion": "Venta",
+      "descripcion": "Fuscia",
+      "precio": 298649,
+      "puertas": 2,
+      "kms": 5368,
+      "potencia": 359
+    },
+    {
+      "id": 17,
+      "titulo": "Nissan",
+      "transaccion": "Permuta",
+      "descripcion": "Red",
+      "precio": 399699,
+      "puertas": 2,
+      "kms": 1771,
+      "potencia": 352
+    },
+    {
+      "id": 18,
+      "titulo": "BMW",
+      "transaccion": "Venta",
+      "descripcion": "Purple",
+      "precio": 437209,
+      "puertas": 2,
+      "kms": 9757,
+      "potencia": 187
+    },
+    {
+      "id": 19,
+      "titulo": "Nissan",
+      "transaccion": "Alquiler",
+      "descripcion": "Puce",
+      "precio": 281262,
+      "puertas": 2,
+      "kms": 3394,
+      "potencia": 150
+    },
+    {
+      "id": 20,
+      "titulo": "Ford",
+      "transaccion": "Venta",
+      "descripcion": "Mauv",
+      "precio": 382952,
+      "puertas": 3,
+      "kms": 9514,
+      "potencia": 151
+    },
+    {
+      "id": 21,
+      "titulo": "Honda",
+      "transaccion": "Alquiler",
+      "descripcion": "Gatos",
+      "precio": "5000",
+      "puertas": "2",
+      "kms": "100000",
+      "potencia": "65"
+    }
+  ]
+}

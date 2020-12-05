@@ -1,0 +1,139 @@
+
+img{
+    width: 25%;
+     display: flex;
+    align-items: flex-start; 
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+     color:white; 
+     font-size: 20px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imagen{
+   
+    color: black;
+    position: relative;
+    
+}
+.fondo img{
+    width: 100%;
+   
+}
+
+.texto {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+} 
+
+form{
+   
+    background-color:  rgb(16, 73, 148);
+    /* border: 1px solid black; */
+    border-radius: 5px ;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    
+} 
+
+.icono{
+    margin-top: 30px;
+}
+
+.botones button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px ;
+    margin-top: 20px;
+}
+
+.botones button:hover{
+    background-color: #284C7F;
+    
+}
+
+.filtro{
+    
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px ;
+    font-size: 20px;
+    
+}
+.filtro input{
+    margin-bottom: 20px;
+}
+
+.checks{
+    background-color: black;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px ;
+    font-size: 20px;
+    color: white;
+    
+}
+
+table{
+    width: 100%;
+    /* border-collapse: collapse; */
+}
+
+#btnModificar,#btnEliminar,#btnCancelar{
+   display:none;
+}
+
+  footer {
+      background-color:  #4980CF;
+      padding: 10px;
+  }
+  
+footer ul a.link{
+    padding-left: 700px;
+    color: white;
+}
+/*gif------------*/
+.gif{
+    width: 50%;
+    display:block;
+    margin:auto;
+    
+  }
+
+.link a{
+    color: black;
+}
+/* .fas{
+    margin-right: 10px;
+} */
+
+@media (max-width: 575.98px) {
+    form{
+        width: 507px;  
+    } 
+}
+@media (min-width: 576px) and (max-width: 767.98px) { form {width: 510px;} }
+@media (min-width: 768px) and (max-width: 991.98px) { form {width: 690px;} }
+@media (min-width: 992px) and (max-width: 1199.98px) { form {width: 930px;}}
+@media (min-width: 1200px) { form {width: 1110px;}.texto {position: absolute;top: 20px;left: 40%;}  }

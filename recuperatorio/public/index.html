@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fonts/all.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel=”Shortcut Icon” href=”favicon.ico” type=img/x-icon” />
+    <title>Pisteando</title>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
+    <script src="./js/accion.js" defer type="module"></script>
+    
+</head>
+<body>
+    <header>
+        
+        <nav class="navbar navbar-dark bg-primary  navbar-expand-lg" >
+            
+            <a class="navbar-brand " href="./index.html">
+                <img src="./img/autoicono.svg" width="50" height="50" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                
+                <div class="navbar-nav ">
+                    <a class="nav-item nav-link" href="#">Nosotros</a>
+                    <a class="nav-item nav-link" href="#">Anuncios</a>
+                    <a class="nav-item nav-link" href="#">Blog</a>
+                    <a class="nav-item nav-link " href="#">Contacto</a>
+                  </div>
+            </div>
+            
+        </nav>
+
+    
+    </header>
+    <section class="fondo">
+        <div class="imagen ">
+            <img src="./img/fondo1.jpg" class="img-fluid" alt="">
+            
+            <div class="texto center">
+                <h1>Administración</h1>
+            </div>
+        </div>
+           
+                    
+       
+            
+        
+    </section>
+  
+
+    <section>
+        <div class="container">
+            
+                <!-- <div class="col"> -->
+
+                    <form >
+                        <div class="row">
+                        <div class=" col-12">
+                        
+                            Titulo:<input type="text " id="txtTitulo" class="form-control" required>
+    
+                            Transaccion
+                                <select name="transaccion" id="txtTransaccion" class="form-control">
+                                    <option value="Venta">Venta</option> 
+                                    <option value="Alquiler" selected>Alquiler</option>
+                                    <option value="Permuta" >Permuta</option>
+                                  </select>
+                            
+                            Descripcion:<input type="text " id="txtDescripcion" class="form-control" required>
+                            Precio:<input type="text " id="txtPrecio" class="form-control" required>
+                            
+                        </div>
+                        
+                            <div class="col icono">
+                                
+                                    <i class="fas fa-car"></i> <input type="text " id="txtPuertas"  placeholder="Puertas" class="form-control col" required>
+                            </div>
+                            <div class="col icono">  
+                                 <i class="fas fa-map-marked-alt"></i><input type="text " id="txtKMs"  placeholder="KMs" class="form-control col " required>
+                            </div>
+                            <div class="col icono">
+                                 <i class="fas fa-bolt"></i><input type="text " id="txtPotencia"  placeholder="Potencia" class="form-control col " required>
+                            </div>
+                         </div>
+                        
+                        
+                        
+            
+                  
+                        <div class="botones">
+                            <button id="alta">Guardar</button>
+                            <button id="btnModificar">Modificar</button>
+                            <button id="btnEliminar">Eliminar</button>
+                            <button id="btnCancelar">Cancelar</button>
+                        </div>
+
+                    </div>
+                    </form>
+                    
+                <!-- </div> -->
+                
+           
+           
+        </div>
+        
+    </section>
+    
+    <section>
+        <div class="container">
+
+            <div class="row bg-primary filtro">
+                
+                    <h1 class="col-12">Filtros</h1>
+                    <div class="col">
+                        
+                        Transaccion
+                        <select name="transaccion2" id="txtTransaccion2" class="form-control bg-warning">
+                            <option value="Todos" selected>Todos</option> 
+                            <option value="Venta">Venta</option> 
+                            <option value="Alquiler">Alquiler</option>
+                        </select>
+
+                    </div>
+                    <div class="col-6">
+                        Promedio de precios:<input type="text " id="promedio" class="form-control"required>
+                    </div>
+                    <div class="col-6">
+                        Promedio de potencia<input type="text " id="proPotencia" class="form-control"required>
+                    </div>
+                    <div class="col-6">
+                        Mayor  potencia<input type="text " id="mayor" class="form-control"required>
+                    </div>
+                    <div class="col-6">
+                        Menor potencia<input type="text " id="menor" class="form-control"required>
+                    </div>
+                
+                
+                        
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row checks">
+                <div class="col">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="id" value="id" checked>
+                        <label class="form-check-label" for="id">ID</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="titulo" value="titulo" checked>
+                        <label class="form-check-label" for="titulo">TITULO</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="transaccion" value="transaccion" checked>
+                        <label class="form-check-label" for="transaccion">TRANSACCION</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="descripcion" value="descripcion" checked>
+                        <label class="form-check-label" for="descripcion">DESCRIPCION</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="precio" value="precio" checked>
+                        <label class="form-check-label" for="precio">PRECIO</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="puertas" value="puertas" checked>
+                        <label class="form-check-label" for="puertas">PUERTAS</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="kms" value="kms" checked>
+                        <label class="form-check-label" for="kms">KMS</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="potencia" value="potencia" checked>
+                        <label class="form-check-label" for="potencia">POTENCIA</label>
+                    </div>
+                  
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="table-responsive" id="cont">
+                <table id="tablita"class="table table-hover center">
+                    <tbody id="tbody" class ="table-striped" >
+                    </tbody>
+                  
+                  </table>
+            </div>
+        </div>
+    </section>
+    <footer class=" bg-dark">
+        <nav class="navbar navbar-dark bg-dark  navbar-expand-lg" >
+            
+            <a class="navbar-brand " href="./index.html">
+                <img src="./img/autoicono.svg" width="50" height="50" alt="">
+            </a>
+          
+                <div class="navbar-nav ">
+                    <a class="nav-item nav-link" href="#">Nosotros</a>
+                    <a class="nav-item nav-link" href="#">Anuncios</a>
+                    <a class="nav-item nav-link" href="#">Blog</a>
+                    <a class="nav-item nav-link " href="#">Contacto</a>
+                    <a class="nav-item nav-link " href="https://github.com/luisprado68" target="_blank" class="link">Luis Prado &copy;</a>
+                  </div>
+            
+            
+        </nav>
+
+        
+    </footer>
+</body>
+</html>
